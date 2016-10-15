@@ -102,9 +102,6 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.WindowsAPICodePack">
-      <HintPath>.\Microsoft.WindowsAPICodePack.dll</HintPath>
-    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
@@ -399,6 +396,8 @@
     <None Include="GUI\Assets\Graphics\Floppy.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="GUI\Assets\Templates\Film.htm" />
+    <Content Include="GUI\Assets\Templates\Kisi.htm" />
     <None Include="GUI\Assets\Graphics\balloon_bar_green.png" />
     <Content Include="GUI\Assets\Graphics\f_AnaPencereIkon.ico" />
     <None Include="GUI\Assets\Graphics\info.png" />
