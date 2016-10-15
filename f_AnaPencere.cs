@@ -4,9 +4,9 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
-using MMC_Filmograf.Library;
+using Filmograf.Library;
 
-namespace MMC_Filmograf
+namespace Filmograf
 {
     public partial class f_AnaPencere : Form
     {
@@ -1985,7 +1985,7 @@ namespace MMC_Filmograf
         //            string sayfa = "";
         //            try
         //            {
-        //                sayfa = global::MMC_Filmograf.Properties.Resources.FilmHtmlMetni.ToString();
+        //                sayfa = global::Filmograf.Properties.Resources.FilmHtmlMetni.ToString();
         //            }
         //            catch (Exception hata)
         //            {
@@ -2057,7 +2057,7 @@ namespace MMC_Filmograf
 
         //            try
         //            {
-        //                taslak = kadro = global::MMC_Filmograf.Properties.Resources.OyuncuKadrosuMetni.ToString();
+        //                taslak = kadro = global::Filmograf.Properties.Resources.OyuncuKadrosuMetni.ToString();
 
 
         //                int maxKadroSayisi = 0;
@@ -2114,7 +2114,7 @@ namespace MMC_Filmograf
         //            string sayfa = "";
         //            try
         //            {
-        //                sayfa = global::MMC_Filmograf.Properties.Resources.KisiHtmlMetni.ToString();
+        //                sayfa = global::Filmograf.Properties.Resources.KisiHtmlMetni.ToString();
         //            }
         //            catch (Exception hata)
         //            {
@@ -2149,7 +2149,7 @@ namespace MMC_Filmograf
 
         //            try
         //            {
-        //                taslak = kadro = global::MMC_Filmograf.Properties.Resources.OynadigiFilmMetni.ToString();
+        //                taslak = kadro = global::Filmograf.Properties.Resources.OynadigiFilmMetni.ToString();
 
         //                int maxKadroSayisi = 0;
         //                List<Film> filmler = this.kutuphane.kisininKutuphanedekiFilmleri(kisi);

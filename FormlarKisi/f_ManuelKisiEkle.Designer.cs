@@ -1,4 +1,4 @@
-﻿namespace MMC_Filmograf
+﻿namespace Filmograf
 {
     partial class f_ManuelKisiEkle
     {
@@ -79,8 +79,8 @@
             this.btnGercekEkle = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.llkKisiselSozler = new MMC_Filmograf.listeLabelKontrolu();
-            this.llkGercekler = new MMC_Filmograf.listeLabelKontrolu();
+            this.llkKisiselSozler = new Filmograf.listeLabelKontrolu();
+            this.llkGercekler = new Filmograf.listeLabelKontrolu();
             this.tDigerAyrintilar = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -313,7 +313,7 @@
             // pResim
             // 
             this.pResim.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pResim.Image = global::MMC_Filmograf.Properties.Resources.Kisi;
+            this.pResim.Image = global::Filmograf.Properties.Resources.Kisi;
             this.pResim.Location = new System.Drawing.Point(16, 29);
             this.pResim.Name = "pResim";
             this.pResim.Size = new System.Drawing.Size(209, 285);
@@ -352,7 +352,7 @@
             // 
             this.btnOzgecmisEkle.FlatAppearance.BorderSize = 0;
             this.btnOzgecmisEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOzgecmisEkle.Image = global::MMC_Filmograf.Properties.Resources.yesilarti;
+            this.btnOzgecmisEkle.Image = global::Filmograf.Properties.Resources.yesilarti;
             this.btnOzgecmisEkle.Location = new System.Drawing.Point(648, 6);
             this.btnOzgecmisEkle.Name = "btnOzgecmisEkle";
             this.btnOzgecmisEkle.Size = new System.Drawing.Size(15, 14);
@@ -395,7 +395,7 @@
             // 
             this.btnKazandigiParaEkle.FlatAppearance.BorderSize = 0;
             this.btnKazandigiParaEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnKazandigiParaEkle.Image = global::MMC_Filmograf.Properties.Resources.yesilarti;
+            this.btnKazandigiParaEkle.Image = global::Filmograf.Properties.Resources.yesilarti;
             this.btnKazandigiParaEkle.Location = new System.Drawing.Point(340, 1);
             this.btnKazandigiParaEkle.Name = "btnKazandigiParaEkle";
             this.btnKazandigiParaEkle.Size = new System.Drawing.Size(15, 14);
@@ -453,7 +453,7 @@
             // 
             this.yeniResmiWebSayfasiEkle.FlatAppearance.BorderSize = 0;
             this.yeniResmiWebSayfasiEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.yeniResmiWebSayfasiEkle.Image = global::MMC_Filmograf.Properties.Resources.yesilarti;
+            this.yeniResmiWebSayfasiEkle.Image = global::Filmograf.Properties.Resources.yesilarti;
             this.yeniResmiWebSayfasiEkle.Location = new System.Drawing.Point(259, 21);
             this.yeniResmiWebSayfasiEkle.Name = "yeniResmiWebSayfasiEkle";
             this.yeniResmiWebSayfasiEkle.Size = new System.Drawing.Size(15, 14);
@@ -497,7 +497,7 @@
             // 
             this.btnKisiselSozuSil.FlatAppearance.BorderSize = 0;
             this.btnKisiselSozuSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnKisiselSozuSil.Image = global::MMC_Filmograf.Properties.Resources.sil1;
+            this.btnKisiselSozuSil.Image = global::Filmograf.Properties.Resources.sil1;
             this.btnKisiselSozuSil.Location = new System.Drawing.Point(440, 167);
             this.btnKisiselSozuSil.Name = "btnKisiselSozuSil";
             this.btnKisiselSozuSil.Size = new System.Drawing.Size(15, 14);
@@ -509,7 +509,7 @@
             // 
             this.btnHakkindakiGercegiSil.FlatAppearance.BorderSize = 0;
             this.btnHakkindakiGercegiSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHakkindakiGercegiSil.Image = global::MMC_Filmograf.Properties.Resources.sil1;
+            this.btnHakkindakiGercegiSil.Image = global::Filmograf.Properties.Resources.sil1;
             this.btnHakkindakiGercegiSil.Location = new System.Drawing.Point(440, 9);
             this.btnHakkindakiGercegiSil.Name = "btnHakkindakiGercegiSil";
             this.btnHakkindakiGercegiSil.Size = new System.Drawing.Size(15, 14);
@@ -521,7 +521,7 @@
             // 
             this.btnKisiselSozEkle.FlatAppearance.BorderSize = 0;
             this.btnKisiselSozEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnKisiselSozEkle.Image = global::MMC_Filmograf.Properties.Resources.yesilarti;
+            this.btnKisiselSozEkle.Image = global::Filmograf.Properties.Resources.yesilarti;
             this.btnKisiselSozEkle.Location = new System.Drawing.Point(461, 167);
             this.btnKisiselSozEkle.Name = "btnKisiselSozEkle";
             this.btnKisiselSozEkle.Size = new System.Drawing.Size(15, 14);
@@ -533,7 +533,7 @@
             // 
             this.btnGercekEkle.FlatAppearance.BorderSize = 0;
             this.btnGercekEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGercekEkle.Image = global::MMC_Filmograf.Properties.Resources.yesilarti;
+            this.btnGercekEkle.Image = global::Filmograf.Properties.Resources.yesilarti;
             this.btnGercekEkle.Location = new System.Drawing.Point(461, 9);
             this.btnGercekEkle.Name = "btnGercekEkle";
             this.btnGercekEkle.Size = new System.Drawing.Size(15, 14);

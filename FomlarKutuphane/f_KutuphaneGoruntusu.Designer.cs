@@ -1,4 +1,4 @@
-﻿namespace MMC_Filmograf
+﻿namespace Filmograf
 {
     partial class f_KutuphaneGoruntusu
     {
@@ -129,7 +129,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::MMC_Filmograf.Properties.Resources.info1;
+            this.pictureBox1.Image = global::Filmograf.Properties.Resources.info1;
             this.pictureBox1.Location = new System.Drawing.Point(9, 17);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(52, 49);

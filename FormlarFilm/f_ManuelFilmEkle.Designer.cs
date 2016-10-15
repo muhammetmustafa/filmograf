@@ -1,4 +1,4 @@
-﻿namespace MMC_Filmograf
+﻿namespace Filmograf
 {
     partial class f_ManuelFilmEkle
     {
@@ -195,14 +195,14 @@
             this.btnKaydet = new System.Windows.Forms.Button();
             this.kisiEklemeMenusu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.kütüphanedenEkleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.llkOlayOrgusu = new MMC_Filmograf.listeLabelKontrolu();
-            this.llkReklamsalSoz = new MMC_Filmograf.listeLabelKontrolu();
-            this.llkGaripGercek = new MMC_Filmograf.listeLabelKontrolu();
-            this.llkCekimGercegiGezinti = new MMC_Filmograf.listeLabelKontrolu();
-            this.llkHatalarGezgini = new MMC_Filmograf.listeLabelKontrolu();
-            this.llkRepliklerGezgini = new MMC_Filmograf.listeLabelKontrolu();
-            this.llkReferansGezici = new MMC_Filmograf.listeLabelKontrolu();
-            this.llkMuzikGezici = new MMC_Filmograf.listeLabelKontrolu();
+            this.llkOlayOrgusu = new Filmograf.listeLabelKontrolu();
+            this.llkReklamsalSoz = new Filmograf.listeLabelKontrolu();
+            this.llkGaripGercek = new Filmograf.listeLabelKontrolu();
+            this.llkCekimGercegiGezinti = new Filmograf.listeLabelKontrolu();
+            this.llkHatalarGezgini = new Filmograf.listeLabelKontrolu();
+            this.llkRepliklerGezgini = new Filmograf.listeLabelKontrolu();
+            this.llkReferansGezici = new Filmograf.listeLabelKontrolu();
+            this.llkMuzikGezici = new Filmograf.listeLabelKontrolu();
             this.tDetaylar.SuspendLayout();
             this.gDil.SuspendLayout();
             this.cmsLinkSaklayici.SuspendLayout();
@@ -616,7 +616,7 @@
             // 
             this.btnDilSil.FlatAppearance.BorderSize = 0;
             this.btnDilSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDilSil.Image = global::MMC_Filmograf.Properties.Resources.sil1;
+            this.btnDilSil.Image = global::Filmograf.Properties.Resources.sil1;
             this.btnDilSil.Location = new System.Drawing.Point(46, -1);
             this.btnDilSil.Name = "btnDilSil";
             this.btnDilSil.Size = new System.Drawing.Size(15, 14);
@@ -907,7 +907,7 @@
             // 
             this.btnUlkeSil.FlatAppearance.BorderSize = 0;
             this.btnUlkeSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUlkeSil.Image = global::MMC_Filmograf.Properties.Resources.sil1;
+            this.btnUlkeSil.Image = global::Filmograf.Properties.Resources.sil1;
             this.btnUlkeSil.Location = new System.Drawing.Point(46, 0);
             this.btnUlkeSil.Name = "btnUlkeSil";
             this.btnUlkeSil.Size = new System.Drawing.Size(15, 14);
@@ -1605,7 +1605,7 @@
             // pFilmAfisi
             // 
             this.pFilmAfisi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pFilmAfisi.Image = global::MMC_Filmograf.Properties.Resources.varsayilanfilmafisi1;
+            this.pFilmAfisi.Image = global::Filmograf.Properties.Resources.varsayilanfilmafisi1;
             this.pFilmAfisi.Location = new System.Drawing.Point(10, 19);
             this.pFilmAfisi.Name = "pFilmAfisi";
             this.pFilmAfisi.Size = new System.Drawing.Size(217, 305);
@@ -1968,7 +1968,7 @@
             // 
             this.btnOlayOrgusuSil.FlatAppearance.BorderSize = 0;
             this.btnOlayOrgusuSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOlayOrgusuSil.Image = global::MMC_Filmograf.Properties.Resources.sil1;
+            this.btnOlayOrgusuSil.Image = global::Filmograf.Properties.Resources.sil1;
             this.btnOlayOrgusuSil.Location = new System.Drawing.Point(484, 9);
             this.btnOlayOrgusuSil.Name = "btnOlayOrgusuSil";
             this.btnOlayOrgusuSil.Size = new System.Drawing.Size(15, 14);
@@ -2005,7 +2005,7 @@
             // 
             this.btnSloganSil.FlatAppearance.BorderSize = 0;
             this.btnSloganSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSloganSil.Image = global::MMC_Filmograf.Properties.Resources.sil1;
+            this.btnSloganSil.Image = global::Filmograf.Properties.Resources.sil1;
             this.btnSloganSil.Location = new System.Drawing.Point(484, 9);
             this.btnSloganSil.Name = "btnSloganSil";
             this.btnSloganSil.Size = new System.Drawing.Size(15, 14);
@@ -2042,7 +2042,7 @@
             // 
             this.btnGaripGercekSil.FlatAppearance.BorderSize = 0;
             this.btnGaripGercekSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGaripGercekSil.Image = global::MMC_Filmograf.Properties.Resources.sil1;
+            this.btnGaripGercekSil.Image = global::Filmograf.Properties.Resources.sil1;
             this.btnGaripGercekSil.Location = new System.Drawing.Point(484, 9);
             this.btnGaripGercekSil.Name = "btnGaripGercekSil";
             this.btnGaripGercekSil.Size = new System.Drawing.Size(15, 14);
@@ -2079,7 +2079,7 @@
             // 
             this.btnCekimGercegiSil.FlatAppearance.BorderSize = 0;
             this.btnCekimGercegiSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCekimGercegiSil.Image = global::MMC_Filmograf.Properties.Resources.sil1;
+            this.btnCekimGercegiSil.Image = global::Filmograf.Properties.Resources.sil1;
             this.btnCekimGercegiSil.Location = new System.Drawing.Point(484, 9);
             this.btnCekimGercegiSil.Name = "btnCekimGercegiSil";
             this.btnCekimGercegiSil.Size = new System.Drawing.Size(15, 14);
@@ -2115,7 +2115,7 @@
             // 
             this.btnHataSil.FlatAppearance.BorderSize = 0;
             this.btnHataSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHataSil.Image = global::MMC_Filmograf.Properties.Resources.sil1;
+            this.btnHataSil.Image = global::Filmograf.Properties.Resources.sil1;
             this.btnHataSil.Location = new System.Drawing.Point(484, 9);
             this.btnHataSil.Name = "btnHataSil";
             this.btnHataSil.Size = new System.Drawing.Size(15, 14);
@@ -2151,7 +2151,7 @@
             // 
             this.btnReplikSil.FlatAppearance.BorderSize = 0;
             this.btnReplikSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReplikSil.Image = global::MMC_Filmograf.Properties.Resources.sil1;
+            this.btnReplikSil.Image = global::Filmograf.Properties.Resources.sil1;
             this.btnReplikSil.Location = new System.Drawing.Point(484, 9);
             this.btnReplikSil.Name = "btnReplikSil";
             this.btnReplikSil.Size = new System.Drawing.Size(15, 14);
@@ -2188,7 +2188,7 @@
             // 
             this.btnReferansSil.FlatAppearance.BorderSize = 0;
             this.btnReferansSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReferansSil.Image = global::MMC_Filmograf.Properties.Resources.sil1;
+            this.btnReferansSil.Image = global::Filmograf.Properties.Resources.sil1;
             this.btnReferansSil.Location = new System.Drawing.Point(484, 9);
             this.btnReferansSil.Name = "btnReferansSil";
             this.btnReferansSil.Size = new System.Drawing.Size(15, 14);
@@ -2225,7 +2225,7 @@
             // 
             this.btnMuzikSil.FlatAppearance.BorderSize = 0;
             this.btnMuzikSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMuzikSil.Image = global::MMC_Filmograf.Properties.Resources.sil1;
+            this.btnMuzikSil.Image = global::Filmograf.Properties.Resources.sil1;
             this.btnMuzikSil.Location = new System.Drawing.Point(484, 9);
             this.btnMuzikSil.Name = "btnMuzikSil";
             this.btnMuzikSil.Size = new System.Drawing.Size(15, 14);

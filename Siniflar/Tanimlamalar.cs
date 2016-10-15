@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace MMC_Filmograf.Library
+namespace Filmograf.Library
 {
     public enum Genre //Film Türleri
     {

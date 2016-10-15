@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
-using MMC_Filmograf.Library;
+using Filmograf.Library;
 using System.Collections.Generic;
 
-namespace MMC_Filmograf
+namespace Filmograf
 {
     public partial class f_ManuelKisiEkle : Form
     {

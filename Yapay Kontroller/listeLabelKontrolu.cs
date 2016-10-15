@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace MMC_Filmograf
+namespace Filmograf
 {
     public partial class listeLabelKontrolu : UserControl
     {

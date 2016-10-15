@@ -1,4 +1,4 @@
-﻿namespace MMC_Filmograf
+﻿namespace Filmograf
 {
     partial class f_ArastirarakEkle
     {
@@ -346,7 +346,7 @@
             // 
             // tsslIslemiIptalEt
             // 
-            this.tsslIslemiIptalEt.Image = global::MMC_Filmograf.Properties.Resources.action_delete1;
+            this.tsslIslemiIptalEt.Image = global::Filmograf.Properties.Resources.action_delete1;
             this.tsslIslemiIptalEt.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tsslIslemiIptalEt.IsLink = true;
             this.tsslIslemiIptalEt.Name = "tsslIslemiIptalEt";

@@ -6,7 +6,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Collections.Generic;
 
-namespace MMC_Filmograf.Library
+namespace Filmograf.Library
 {
     [Serializable]
     public class Kisi : IDisposable
@@ -38,7 +38,7 @@ namespace MMC_Filmograf.Library
 
         public Kisi(string imdbID)
         {
-            this.resim = (System.Drawing.Image)global::MMC_Filmograf.Properties.Resources.Kisi;
+            this.resim = (System.Drawing.Image)global::Filmograf.Properties.Resources.Kisi;
             this.resimURL = "";
 
             this.isim = "";
@@ -64,7 +64,7 @@ namespace MMC_Filmograf.Library
 
         public Kisi(string isim, int unvan, string imdbID)
         {
-            this.resim =  (System.Drawing.Image)global::MMC_Filmograf.Properties.Resources.Kisi;
+            this.resim =  (System.Drawing.Image)global::Filmograf.Properties.Resources.Kisi;
             this.resimURL = "";
 
             this.isim = isim;

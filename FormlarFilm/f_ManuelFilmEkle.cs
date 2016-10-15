@@ -7,10 +7,10 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using MMC_Filmograf.Library;
+using Filmograf.Library;
 using System.Text.RegularExpressions;
 
-namespace MMC_Filmograf
+namespace Filmograf
 {
     public partial class f_ManuelFilmEkle : Form
     {
@@ -138,7 +138,7 @@ namespace MMC_Filmograf
                 this.Text = yeniFilm.Ad + " - " + "Düzenleme Modu";
             }
 
-            this.pFilmAfisi.Image = this.yeniFilm.Afis != null ? this.yeniFilm.Afis : (Image)global::MMC_Filmograf.Properties.Resources.Movies;
+            this.pFilmAfisi.Image = this.yeniFilm.Afis != null ? this.yeniFilm.Afis : (Image)global::Filmograf.Properties.Resources.Movies;
             
             this.txtFilmAdi.Text = this.yeniFilm.Ad;
             this.txtImdbID.Text = this.yeniFilm.ImdbID;
@@ -176,7 +176,7 @@ namespace MMC_Filmograf
                     {
                         if (!this.kutuphane.IDVeritabani.ContainsKey(kisi)) continue;
 
-                        kisiResimleri.Images.Add(kisi, (Image)global::MMC_Filmograf.Properties.Resources.Kisi);
+                        kisiResimleri.Images.Add(kisi, (Image)global::Filmograf.Properties.Resources.Kisi);
                         lvYonetmenler.Items.Add(kisi, this.kutuphane.IDVeritabani[kisi].Trim(), kisi);
                     }
                 }
@@ -200,7 +200,7 @@ namespace MMC_Filmograf
                     {
                         if (!this.kutuphane.IDVeritabani.ContainsKey(kisi)) continue;
 
-                        kisiResimleri.Images.Add(kisi, (Image)global::MMC_Filmograf.Properties.Resources.Kisi);
+                        kisiResimleri.Images.Add(kisi, (Image)global::Filmograf.Properties.Resources.Kisi);
                         lvYazarlar.Items.Add(kisi, this.kutuphane.IDVeritabani[kisi].Trim(), kisi);
                     }
                 }
@@ -256,7 +256,7 @@ namespace MMC_Filmograf
                             continue;
                         }
                         
-                        Image resim = (Image)global::MMC_Filmograf.Properties.Resources.Kisi;
+                        Image resim = (Image)global::Filmograf.Properties.Resources.Kisi;
                         resim = resim.GetThumbnailImage(23, 32, resimCeviriciHataToplayici, System.IntPtr.Zero);
 
                         oyuncuKadrosu.Rows.Add(resim, oyuncuIsim.Trim(), karakterIsmi.Trim(), karakter.oyuncuID);
@@ -320,7 +320,7 @@ namespace MMC_Filmograf
                     }
                     else
                     {
-                        Image resim = (Image)global::MMC_Filmograf.Properties.Resources.Kisi;
+                        Image resim = (Image)global::Filmograf.Properties.Resources.Kisi;
                         string kisiIsim = "";
 
                         if (this.kutuphane.IDVeritabani.ContainsKey(dkisi.kisiID))
@@ -500,7 +500,7 @@ namespace MMC_Filmograf
                                             " ( " + this.yeniDizi.oyuncuRolSayisi(karakter.oyuncuID) + " bölüm, " +
                                             this.yeniDizi.oyuncuRolYillari(karakter.oyuncuID) + " )";
 
-                        Image resim = (Image)global::MMC_Filmograf.Properties.Resources.Kisi;
+                        Image resim = (Image)global::Filmograf.Properties.Resources.Kisi;
                         resim = resim.GetThumbnailImage(22, 22, resimCeviriciHataToplayici, System.IntPtr.Zero);
 
                         oyuncuKadrosu.Rows.Add(resim, oyuncuIsim.Trim(), ikinciSutun, karakter.oyuncuID);
@@ -529,7 +529,7 @@ namespace MMC_Filmograf
                     }
                     else
                     {
-                        Image resim = (Image)global::MMC_Filmograf.Properties.Resources.Kisi;
+                        Image resim = (Image)global::Filmograf.Properties.Resources.Kisi;
                         string kisiIsim = "";
 
                         if (this.kutuphane.IDVeritabani.ContainsKey(dkisi.kisiID))

@@ -1,4 +1,4 @@
-﻿namespace MMC_Filmograf
+﻿namespace Filmograf
 {
     partial class f_KisiListesi
     {

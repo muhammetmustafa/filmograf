@@ -12,7 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MMC_Filmograf
+namespace Filmograf
 {
     /// <summary>
     /// Interaction logic for mmcf_AnaMenu.xaml

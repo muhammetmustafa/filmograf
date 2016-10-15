@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Drawing;
 
-namespace MMC_Filmograf.Library
+namespace Filmograf.Library
 {
     [Serializable]
     public class DiziBolumu

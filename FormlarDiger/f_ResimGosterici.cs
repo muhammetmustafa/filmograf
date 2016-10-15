@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace MMC_Filmograf
+namespace Filmograf
 {
     public partial class f_ResimGosterici : Form
     {
@@ -55,7 +55,7 @@ namespace MMC_Filmograf
                 this.Height = resim.Height;
             }
             else
-                this.BackgroundImage = global::MMC_Filmograf.Properties.Resources.kirmizicarpi;
+                this.BackgroundImage = global::Filmograf.Properties.Resources.kirmizicarpi;
         }
 
         public Image Resim

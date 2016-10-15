@@ -10,7 +10,7 @@ using System.Collections;
 using System.Security.Cryptography;
 using System.Runtime.Serialization.Formatters.Binary;
 
-namespace MMC_Filmograf.Library
+namespace Filmograf.Library
 {
     
     [Serializable]
@@ -51,7 +51,7 @@ namespace MMC_Filmograf.Library
 
         public Film()
         {
-            afis = (System.Drawing.Image) global::MMC_Filmograf.Properties.Resources.varsayilanfilmafisi;
+            afis = (System.Drawing.Image) global::Filmograf.Properties.Resources.varsayilanfilmafisi;
             afisURL = "";
             ad = "";
             sure = "";

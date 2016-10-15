@@ -9,7 +9,7 @@ using System.Text.RegularExpressions;
 using System.Web;
 using System.Threading;
 
-namespace MMC_Filmograf.Library
+namespace Filmograf.Library
 {
     class IMDB
     {

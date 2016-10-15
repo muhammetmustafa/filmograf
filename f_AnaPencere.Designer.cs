@@ -1,4 +1,4 @@
-﻿namespace MMC_Filmograf
+﻿namespace Filmograf
 {
     partial class f_AnaPencere
     {
@@ -61,7 +61,7 @@
             this.cikisYili = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.filmSuresi = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ehAnaMenu = new System.Windows.Forms.Integration.ElementHost();
-            this.mmcf_AnaMenu1 = new MMC_Filmograf.mmcf_AnaMenu();
+            this.mmcf_AnaMenu1 = new Filmograf.mmcf_AnaMenu();
             this.AracCubugu = new System.Windows.Forms.ToolStrip();
             this.yeniKutuphane = new System.Windows.Forms.ToolStripButton();
             this.kutuphaneAc = new System.Windows.Forms.ToolStripButton();
@@ -239,7 +239,7 @@
             // 
             // silToolStripMenuItem2
             // 
-            this.silToolStripMenuItem2.Image = global::MMC_Filmograf.Properties.Resources.kirmizicarpi;
+            this.silToolStripMenuItem2.Image = global::Filmograf.Properties.Resources.kirmizicarpi;
             this.silToolStripMenuItem2.Name = "silToolStripMenuItem2";
             this.silToolStripMenuItem2.Size = new System.Drawing.Size(162, 22);
             this.silToolStripMenuItem2.Text = "Sil";
@@ -371,7 +371,7 @@
             // yeniKutuphane
             // 
             this.yeniKutuphane.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.yeniKutuphane.Image = global::MMC_Filmograf.Properties.Resources.filmlerklasoru;
+            this.yeniKutuphane.Image = global::Filmograf.Properties.Resources.filmlerklasoru;
             this.yeniKutuphane.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.yeniKutuphane.Name = "yeniKutuphane";
             this.yeniKutuphane.Size = new System.Drawing.Size(101, 24);
@@ -380,7 +380,7 @@
             // kutuphaneAc
             // 
             this.kutuphaneAc.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.kutuphaneAc.Image = global::MMC_Filmograf.Properties.Resources.folder_open;
+            this.kutuphaneAc.Image = global::Filmograf.Properties.Resources.folder_open;
             this.kutuphaneAc.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.kutuphaneAc.Name = "kutuphaneAc";
             this.kutuphaneAc.Size = new System.Drawing.Size(101, 24);
@@ -394,7 +394,7 @@
             // kutuphaneyiKaydet
             // 
             this.kutuphaneyiKaydet.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.kutuphaneyiKaydet.Image = global::MMC_Filmograf.Properties.Resources.Floppy;
+            this.kutuphaneyiKaydet.Image = global::Filmograf.Properties.Resources.Floppy;
             this.kutuphaneyiKaydet.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.kutuphaneyiKaydet.Name = "kutuphaneyiKaydet";
             this.kutuphaneyiKaydet.Size = new System.Drawing.Size(101, 24);
@@ -408,7 +408,7 @@
             // manuelFilmEkle
             // 
             this.manuelFilmEkle.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.manuelFilmEkle.Image = global::MMC_Filmograf.Properties.Resources.yenifilmsimgesi;
+            this.manuelFilmEkle.Image = global::Filmograf.Properties.Resources.yenifilmsimgesi;
             this.manuelFilmEkle.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.manuelFilmEkle.Name = "manuelFilmEkle";
             this.manuelFilmEkle.Size = new System.Drawing.Size(101, 24);
@@ -417,7 +417,7 @@
             // arastirarakFilmEkle
             // 
             this.arastirarakFilmEkle.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.arastirarakFilmEkle.Image = global::MMC_Filmograf.Properties.Resources.Network;
+            this.arastirarakFilmEkle.Image = global::Filmograf.Properties.Resources.Network;
             this.arastirarakFilmEkle.ImageTransparentColor = System.Drawing.Color.White;
             this.arastirarakFilmEkle.Name = "arastirarakFilmEkle";
             this.arastirarakFilmEkle.Size = new System.Drawing.Size(101, 24);
@@ -440,7 +440,7 @@
             // manuelKisiEkle
             // 
             this.manuelKisiEkle.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.manuelKisiEkle.Image = global::MMC_Filmograf.Properties.Resources.kisiekle;
+            this.manuelKisiEkle.Image = global::Filmograf.Properties.Resources.kisiekle;
             this.manuelKisiEkle.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.manuelKisiEkle.Name = "manuelKisiEkle";
             this.manuelKisiEkle.Size = new System.Drawing.Size(101, 24);
@@ -449,7 +449,7 @@
             // arastirarakKisiEkle
             // 
             this.arastirarakKisiEkle.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.arastirarakKisiEkle.Image = global::MMC_Filmograf.Properties.Resources.Network;
+            this.arastirarakKisiEkle.Image = global::Filmograf.Properties.Resources.Network;
             this.arastirarakKisiEkle.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.arastirarakKisiEkle.Name = "arastirarakKisiEkle";
             this.arastirarakKisiEkle.Size = new System.Drawing.Size(101, 24);
@@ -472,7 +472,7 @@
             // Kess
             // 
             this.Kess.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.Kess.Image = global::MMC_Filmograf.Properties.Resources.cut;
+            this.Kess.Image = global::Filmograf.Properties.Resources.cut;
             this.Kess.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.Kess.Name = "Kess";
             this.Kess.Size = new System.Drawing.Size(101, 24);
@@ -481,7 +481,7 @@
             // Kopyalaa
             // 
             this.Kopyalaa.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.Kopyalaa.Image = global::MMC_Filmograf.Properties.Resources.copy;
+            this.Kopyalaa.Image = global::Filmograf.Properties.Resources.copy;
             this.Kopyalaa.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.Kopyalaa.Name = "Kopyalaa";
             this.Kopyalaa.Size = new System.Drawing.Size(101, 24);
@@ -490,7 +490,7 @@
             // Yapistirr
             // 
             this.Yapistirr.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.Yapistirr.Image = global::MMC_Filmograf.Properties.Resources.paste;
+            this.Yapistirr.Image = global::Filmograf.Properties.Resources.paste;
             this.Yapistirr.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.Yapistirr.Name = "Yapistirr";
             this.Yapistirr.Size = new System.Drawing.Size(101, 24);
@@ -509,7 +509,7 @@
             // kutuphaneAra
             // 
             this.kutuphaneAra.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.kutuphaneAra.Image = global::MMC_Filmograf.Properties.Resources.Find;
+            this.kutuphaneAra.Image = global::Filmograf.Properties.Resources.Find;
             this.kutuphaneAra.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.kutuphaneAra.Name = "kutuphaneAra";
             this.kutuphaneAra.Size = new System.Drawing.Size(24, 24);
@@ -523,7 +523,7 @@
             // istatistikleriGoster
             // 
             this.istatistikleriGoster.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.istatistikleriGoster.Image = global::MMC_Filmograf.Properties.Resources.PieDiagram;
+            this.istatistikleriGoster.Image = global::Filmograf.Properties.Resources.PieDiagram;
             this.istatistikleriGoster.ImageTransparentColor = System.Drawing.Color.Transparent;
             this.istatistikleriGoster.Name = "istatistikleriGoster";
             this.istatistikleriGoster.Size = new System.Drawing.Size(24, 24);

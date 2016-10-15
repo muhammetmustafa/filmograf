@@ -1,4 +1,4 @@
-﻿namespace MMC_Filmograf
+﻿namespace Filmograf
 {
     partial class listeLabelKontrolu
     {
@@ -40,7 +40,7 @@
             this.btnSonraki.BackColor = System.Drawing.Color.Transparent;
             this.btnSonraki.FlatAppearance.BorderSize = 0;
             this.btnSonraki.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSonraki.Image = global::MMC_Filmograf.Properties.Resources.sag;
+            this.btnSonraki.Image = global::Filmograf.Properties.Resources.sag;
             this.btnSonraki.Location = new System.Drawing.Point(498, 1);
             this.btnSonraki.Name = "btnSonraki";
             this.btnSonraki.Size = new System.Drawing.Size(16, 19);
@@ -54,7 +54,7 @@
             this.btnOnceki.BackColor = System.Drawing.Color.Transparent;
             this.btnOnceki.FlatAppearance.BorderSize = 0;
             this.btnOnceki.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOnceki.Image = global::MMC_Filmograf.Properties.Resources.sol;
+            this.btnOnceki.Image = global::Filmograf.Properties.Resources.sol;
             this.btnOnceki.Location = new System.Drawing.Point(347, 1);
             this.btnOnceki.Name = "btnOnceki";
             this.btnOnceki.Size = new System.Drawing.Size(16, 19);

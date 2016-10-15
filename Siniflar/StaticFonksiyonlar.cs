@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace MMC_Filmograf.Library
+namespace Filmograf.Library
 {
     class StaticFonksiyonlar
     {
@@ -19,7 +19,7 @@ namespace MMC_Filmograf.Library
             try
             {
                 List<string> turler = new List<string>();
-                turler.AddRange(global::MMC_Filmograf.Properties.Resources.FilmTurleri.ToString().Split(','));
+                turler.AddRange(global::Filmograf.Properties.Resources.FilmTurleri.ToString().Split(','));
                 for (int i = 0; i < turler.Count; i++)
                 {
                     if (turler[i] == tur)
@@ -38,7 +38,7 @@ namespace MMC_Filmograf.Library
             try
             {
                 List<string> turler = new List<string>();
-                turler.AddRange(global::MMC_Filmograf.Properties.Resources.FilmTurleri.ToString().Split(','));
+                turler.AddRange(global::Filmograf.Properties.Resources.FilmTurleri.ToString().Split(','));
                 return turler[tur];
             }
             catch (Exception)
@@ -55,7 +55,7 @@ namespace MMC_Filmograf.Library
             try
             {
                 List<string> turler = new List<string>();
-                turler.AddRange(global::MMC_Filmograf.Properties.Resources.FilmTurleri.ToString().Split(','));
+                turler.AddRange(global::Filmograf.Properties.Resources.FilmTurleri.ToString().Split(','));
                 return turler;
             }
             catch (Exception)

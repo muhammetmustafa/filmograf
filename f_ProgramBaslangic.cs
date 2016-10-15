@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace MMC_Filmograf
+namespace Filmograf
 {
     static class f_ProgramBaslangic
     {

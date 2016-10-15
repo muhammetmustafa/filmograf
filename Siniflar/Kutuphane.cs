@@ -8,7 +8,7 @@ using System.Drawing;
 using System.IO.Compression;
 using System.Runtime.Serialization.Formatters.Binary;
 
-namespace MMC_Filmograf.Library
+namespace Filmograf.Library
 {   
     [Serializable]
     public class Kutuphane : IDisposable

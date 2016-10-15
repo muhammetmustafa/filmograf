@@ -6,9 +6,9 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using MMC_Filmograf.Library;
+using Filmograf.Library;
 
-namespace MMC_Filmograf
+namespace Filmograf
 {
     public partial class f_KategoriMetin : Form
     {

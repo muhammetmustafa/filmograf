@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
-using MMC_Filmograf.Library;
+using Filmograf.Library;
 
-namespace MMC_Filmograf
+namespace Filmograf
 {
     public partial class f_ArastirarakEkle : Form
     {

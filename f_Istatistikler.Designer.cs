@@ -1,4 +1,4 @@
-﻿namespace MMC_Filmograf
+﻿namespace Filmograf
 {
     partial class f_Istatistikler
     {
@@ -241,7 +241,7 @@
             // 
             this.pbCubuk.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.pbCubuk.BackgroundImage = global::MMC_Filmograf.Properties.Resources.balloon_bar_green;
+            this.pbCubuk.BackgroundImage = global::Filmograf.Properties.Resources.balloon_bar_green;
             this.pbCubuk.Location = new System.Drawing.Point(9, 89);
             this.pbCubuk.Name = "pbCubuk";
             this.pbCubuk.Size = new System.Drawing.Size(355, 2);
