@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace Filmograf
 {
-    static class f_ProgramBaslangic
+    static class Program
     {
         /// <summary>
         /// The main entry point for the application.
