@@ -1,0 +1,116 @@
+﻿<UserControl x:Class="MMC_Filmograf.mmcf_AnaMenu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" HorizontalAlignment="Left" d:DesignHeight="26" d:DesignWidth="544">
+    <UserControl.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FFA6A6A6" Offset="1" />
+            <GradientStop Color="White" Offset="0.057" />
+        </LinearGradientBrush>
+    </UserControl.Background>
+    <UserControl.Foreground>
+        <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+            <GradientStop Color="Black" Offset="0" />
+            <GradientStop Color="White" Offset="1" />
+        </LinearGradientBrush>
+    </UserControl.Foreground>
+    <Grid Width="458" Height="23" HorizontalAlignment="Left">
+        <Menu BorderBrush="#FF4E4E60" BorderThickness="0" ClipToBounds="True" Cursor="Arrow" DataContext="{Binding}" FlowDirection="LeftToRight" FontFamily="Segoe UI" FontSize="13" FontWeight="Normal" ForceCursor="True" Foreground="Black" Height="23" HorizontalContentAlignment="Left" IsManipulationEnabled="False" ItemsSource="{Binding}" Name="AnaMenu" Opacity="67" OpacityMask="#FFEAEAEA" VerticalAlignment="Center" UseLayoutRounding="True" VerticalContentAlignment="Stretch" HorizontalAlignment="Left">
+            <Menu.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="0" />
+                    <GradientStop Color="#FFACACAC" Offset="1" />
+                </LinearGradientBrush>
+            </Menu.Background>
+            <MenuItem Header="Dosya" Name="MenuDosya">
+                <MenuItem Header="Yeni" Name="MI_yeniDosyaOlustur" />
+                <MenuItem Header="Aç" Name="MI_yeniDosyaAc" />
+                <Separator/>
+                <MenuItem Header="Kapat" Name="MI_kutuphaneKapat" />
+                <Separator/>
+                <MenuItem Header="Kaydet" Name="MI_kutuphaneyiKaydet" />
+                <MenuItem Header="Farklı kaydet..." Name="MI_kutuphaneyiFarkliKaydet" />
+                <Separator/>
+                <MenuItem Header="Şifrele" Name="MI_kutuphaneyiSifrele" />
+                <Separator/>
+                <MenuItem Header="Çıkış" Name="MI_programdanCikis" />
+            </MenuItem>
+            <MenuItem Header="Düzen" Name="MenuDuzen">
+                <MenuItem Header="Tümünü Seç" Name="MI_TumunuSec"/>
+                <Separator/>
+                <MenuItem Header="Kes" Name="MI_Kes"/>
+                <MenuItem Header="Kopyala" Name="MI_Kopyala"/>
+                <MenuItem Header="Yapıştır" Name="MI_Yapistir"/>
+                <Separator/>
+                <MenuItem Header="Bul" Name="MI_Bul"/>
+            </MenuItem>
+            <MenuItem Header="Görünüm" Name="MenuGorunum">
+                <MenuItem Header="Yerleşim"/>
+                <MenuItem Header="Film Listesi">
+                    <MenuItem Header="Büyük Simgeler" Name="MI_BuyukSimgeler"/>
+                    <MenuItem Header="Küçük Simgeler" Name="MI_KucukSimgeler"/>
+                    <MenuItem Header="Döşe" Name="MI_Dose"/>
+                    <MenuItem Header="Detaylar" Name="MI_Detaylar"/>
+                    <MenuItem Header="Liste" Name="MI_Liste"/>
+                </MenuItem>
+                <MenuItem Header="Modlar">
+                    <MenuItem Header="Film/Dizi Modu" Name="MI_FilmDiziModu"/>
+                    <MenuItem Header="Kişi Modu" Name="MI_KisiModu"/>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Film/Dizi" Name="MenuFilmDizi">
+                <MenuItem Header="Manuel ekle..." Name="MI_ManuelFilmDiziEkle"/>
+                <MenuItem Header="Dosyadan..." Name="MI_DosyadanFilmDiziEkle"/>
+                <MenuItem Header="Araştır..." Name="MI_ArastirarakFilmDiziEkle"/>
+                <Separator/>
+                <MenuItem Header="Düzenle..." Name="MI_FilmDiziDuzenle"/>
+                <Separator/>
+                <MenuItem Header="Sil" Name="MI_FilmDiziSil"/>
+                <MenuItem Header="Tümünü sil" Name="MI_FilmDiziTumunuSil"/>
+                <Separator/>
+                <MenuItem Header="Film/Dizi afişlerini yenile" Name="MI_FilmDiziAfisleriniYenile"/>
+                <MenuItem Header="Film/Dizi bilgilerini yenile" Name="MI_FilmDiziBilgileriniYenile"/>
+                <Separator/>
+                <MenuItem Header="Film/Dizi afişlerini kaydet..." Name="MI_FilmDiziAfisleriniKaydet"/>
+            </MenuItem>
+            <MenuItem Header="Kişi" Name="MenuKisi">
+                <MenuItem Header="Manuel ekle..." Name="MI_ManuelKisiEkle"/>
+                <MenuItem Header="Dosyadan..." Name="MI_DosyadanKisiEkle"/>
+                <MenuItem Header="Araştır..." Name="MI_ArastirarakKisiEkle"/>
+                <Separator/>
+                <MenuItem Header="Düzenle..." Name="MI_KisiDuzenle"/>
+                <Separator/>
+                <MenuItem Header="Sil" Name="MI_KisiSil"/>
+                <MenuItem Header="Tümünü sil" Name="MI_KisiTumunuSil"/>
+                <Separator/>
+                <MenuItem Header="Kişilerin resimlerini yenile" Name="MI_KisilerinResimleriniYenile"/>
+                <MenuItem Header="Kişilerin bilgilerini yenile" Name="MI_KisilerinBilgileriniYenile"/>
+                <Separator/>
+                <MenuItem Header="Kişilerin resimlerini kaydet..." Name="MI_KisilerinResimleriniKaydet"/>
+            </MenuItem>
+            <MenuItem Header="Kütüphane" Name="MenuKutuphane">
+                <MenuItem Header="Bilgileri göster..." Name="MI_BilgileriGoster"/>
+                <MenuItem Header="Bilgileri yedekle" Name="MI_BilgileriYedekle"/>
+                <MenuItem Header="Bilgileri al..." Name="MI_BilgileriAl"/>
+                <MenuItem Header="Herşeyi temizle" Name="MI_HerseyiTemizle"/>
+                <Separator/>
+                <MenuItem Header="Kütüphaneyi düzenle..." Name="MI_KutuphaneyiDuzenle"/>
+                <Separator/>
+                <MenuItem Header="İstatistikler..." Name="MI_Istatistikler"/>
+                <Separator/>
+                <MenuItem Header="Dönüştür..." Name="MI_Donustur"/>
+            </MenuItem>
+            <MenuItem Header="Araçlar" Name="MenuAraclar">
+                <MenuItem Header="Cici göster" Name="MI_CiciGoster"/>
+                <MenuItem Header="Ayarlar..." Name="MI_Ayarlar"/>
+            </MenuItem>
+            <MenuItem Header="Yardım" Name="MenuYardim">
+                <MenuItem Header="Yardım konuları..." Name="MI_YardimKonulari"/>
+                <Separator/>
+                <MenuItem Header="Hakkında" Name="MI_Hakkinda"/>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</UserControl>

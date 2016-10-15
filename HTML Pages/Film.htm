@@ -1,0 +1,264 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{baslik}</title>
+<style type="text/css">
+.body {
+	background-color: #AAAAAA;	
+}
+.taban {
+	width: 610px;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+.filmAfisi {
+	background-color: #CCCCCC;
+	float: left;
+	height: 300px;
+	width: 230px;
+	margin-left: 14px;
+}
+.filmAdi {
+	float: right;
+	width: 340px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-right: 10px;
+	border: 1px solid;
+}
+.oyuncuKadrosu {
+	width: 587px;
+	float: left;
+	margin-left: 13px;
+	margin-right: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px solid;
+}
+.Baslik {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	float: left;
+	width: 575px;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-bottom: 7px;
+	margin-left: 6px;
+	color: #CC9900;
+	font-weight: bolder;
+	font-style: normal;
+}
+#satirSol {
+	margin-left: 4px;
+	margin-bottom: 5px;
+	float: left;
+	width: 250px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+#satirSag {
+	margin-left: 4px;
+	margin-bottom: 5px;
+	float: right;
+	width: 270px;
+	margin-right: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+}
+.icBaslik {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	color: #333333;
+	font-style: normal;
+}
+.icerik {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000000;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	margin-bottom: 3px;
+}
+.Detaylar {
+	float: left;
+	width: 587px;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	margin-left: 13px;
+	border: 1px solid;
+	padding-bottom: 2px;
+}
+.resmiSiteler {
+	margin-left: 7px;
+	margin-bottom: 7px;
+	float: left;
+	display: block;
+	width: 573px;
+}
+#tablo {
+	float: left;
+	width: 555px;
+	margin: 5px;
+}
+.olayOrgusu {
+	font-family: Arial, Helvetica, sans-serif;
+	float: left;
+	width: 587px;
+	margin-top: 5px;
+	margin-right: 4px;
+	margin-bottom: 5px;
+	margin-left: 13px;
+	border: 1px solid;
+	padding-bottom: 2px;
+}
+.turler {
+	float: right;
+	margin-bottom: 5px;
+	width: 340px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #666666;
+	font-size: 17px;
+	margin-right: 10px;
+	border: 1px solid;
+}
+.imdbPuani {
+	float: right;
+	width: 340px;
+	margin-bottom: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #996600;
+	font-size: 16px;
+	font-weight: bolder;
+	margin-right: 10px;
+}
+.yonetmenYazarVeStarlar {
+	float: right;
+	width: 340px;
+	margin-bottom: 5px;
+	margin-right: 11px;
+	margin-left: 0px;
+}
+#yazarlar {
+	width: 340px;
+	border: 1px solid;
+}
+#yonetmenler{
+	width: 340px;
+	border: 1px solid;
+}
+#starlar {
+	width: 340px;
+	border: 1px solid;
+}
+.anahtarKelimeler {
+	float: left;
+	width: 559px;
+	margin-top: 5px;
+	margin-right: 4px;
+	margin-bottom: 5px;
+	margin-left: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.cikisYili {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	margin-left: 15px;
+}
+.imdbID{
+	width: 100px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	color: #333333;
+	margin-left: 13px;
+}
+</style>
+</head>
+
+<body class="body">
+<div class="taban">
+  <div class="filmAfisi"></div>
+  <span class="imdbID"><span style="font-style:normal; font-weight:bold"> IMDB ID: </span>{imdbID}</span>
+  <div class="filmAdi">{filmAdi}<span class="cikisYili">{cikisYili}</span></div>
+  <div class="turler">{turler}</div>
+  <div class="imdbPuani">{imdbPuani}</div>
+  <div class="yonetmenYazarVeStarlar">
+  	<div class="yonetmenYazarVeStarlar" id="yonetmenler">
+  	  <span class="icBaslik">Yönetmenler:</span>
+      <span class="icerik">{yonetmenler}</span>
+  	</div>
+    <div class="yonetmenYazarVeStarlar" id="yazarlar">
+      <span class="icBaslik">Yazarlar:</span>
+      <span class="icerik">{yazarlar}</span>
+    </div>
+    <div class="yonetmenYazarVeStarlar" id="starlar">
+      <span class="icBaslik">Yıldızlar:</span>
+      <span class="icerik">{yildizlar}</span>
+    </div>
+  </div>
+  <div class="oyuncuKadrosu">
+  <div class="Baslik">Oyuncu Kadrosu</div>
+    <div id="satirSol">{oyuncuAdi}</div>
+    <div id="satirSag">{karakterAdi}</div>
+  </div>
+  <div class="olayOrgusu">
+    <div class="Baslik">Olay Örgüsü</div>
+	<div class="resmiSiteler">
+    <span class="icBaslik">Olay Örgüsü:</span></br>
+    <span class="icerik">{olayOrgusu}</span></div>
+    <div class="resmiSiteler">
+    <span class="icBaslik">Anahtar Kelimeler:</span>
+    <span class="icerik">{anahtarKelimeler}</span></div>
+  </div>
+  <div class="Detaylar">
+  	<div class="Baslik">Detaylar</div>
+    <div class="resmiSiteler">
+      <span class="icBaslik">Resmi Siteler:</span>
+      <span class="icerik">{resmiSiteler}</span>
+    </div>
+    <div class="resmiSiteler">
+      <span class="icBaslik">Ülke:</span>
+      <span class="icerik">{ulke}</span>
+    </div>
+    <div class="resmiSiteler">
+      <span class="icBaslik">Dil:</span>
+      <span class="icerik">{dil}</span>
+    </div>
+    <div class="resmiSiteler">
+      <span class="icBaslik">Çıkış Tarihi:</span>
+      <span class="icerik">{cikisTarihi}</span>
+    </div>
+    <div class="resmiSiteler">
+      <span class="icBaslik">Başka İsim:</span>
+      <span class="icerik">{baskaIsim}</span>
+    </div>
+    <div class="resmiSiteler">
+      <span class="icBaslik">Film Çekim Yerleri:</span>
+      <span class="icerik">{filmCekimYerleri}</span>
+    </div>
+    <div class="resmiSiteler">
+      <span  class="icBaslik">Haftasonu Açılış:</span>
+      <span class="icerik">{haftasonuAcilis}</span>
+    </div>
+    <div class="resmiSiteler">
+      <span class="icBaslik">Toplam Kazanç:</span>
+      <span class="icerik">{toplamKazanc}</span>
+    </div>
+  </div>
+</div>
+</body>
+</html>

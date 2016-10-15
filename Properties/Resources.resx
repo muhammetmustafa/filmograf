@@ -1,0 +1,1186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_08Akrep" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Burclar\08Akrep.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\31.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Network" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Network.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ulkeler" xml:space="preserve">
+    <value>Afganistan
+Almanya
+Amerikan Samoa
+Amerika Birlesik Devletleri
+Andorra
+Angola
+Anguilla, Ingiltere
+Antigua ve Barbuda
+Arjantin
+Arnavutluk
+Aruba, Hollanda
+Avustralya
+Avusturya
+Azerbaycan
+Bahama Adalari
+Bahreyn
+Banglades
+Barbados
+Belcika
+Belize
+Benin
+Bermuda, Ingiltere
+Beyaz Rusya
+Bhutan
+Birlesik Arap Emirlikleri
+Birmanya (Myanmar)
+Bolivya
+Bosna Hersek
+Botswana
+Brezilya
+Brunei
+Bulgaristan
+Burkina Faso
+Burundi
+Cape Verde
+Cayman Adalari, Ingiltere
+Cebelitarik, Ingiltere
+Cezayir
+Christmas Adasi , Avusturalya
+Cibuti
+Çad
+Çek Cumhuriyeti
+Çin
+Danimarka
+Dominika
+Dominik Cumhuriyeti
+Ekvator
+Ekvator Ginesi
+El Salvador
+Endonezya
+Eritre
+Ermenistan
+Estonya
+Etiyopya
+Fas
+Fiji
+Fildisi Sahili
+Filipinler
+Filistin
+Finlandiya
+Folkland Adalari, Ingiltere
+Fransa
+Fransiz Guyanasi
+Fransiz Güney Eyaletleri (Kerguelen Adalari)
+Fransiz Polinezyasi
+Gabon
+Galler
+Gambiya
+Gana
+Gine
+Gine-Bissau
+Grenada
+Gronland
+Guadalup, Fransa
+Guam, Amerika
+Guatemala
+Guyana
+Güney Afrika
+Güney Georgia ve Güney Sandvic Adalari, Ingiltere
+Güney Kibris Rum Yonetimi
+Güney Kore
+Gürcistan
+Haiti
+Hirvatistan
+Hindistan
+Hollanda
+Hollanda Antilleri
+Honduras
+Irak
+Ingiltere
+Iran
+Irlanda
+Ispanya
+Israil
+Isvec
+Isvicre
+Italya
+Izlanda
+Jamaika
+Japonya
+Johnston Atoll, Amerika
+Kambocya
+Kamerun
+Kanada
+Kanarya Adalari
+Karadag
+Katar
+Kazakistan
+Kenya
+Kirgizistan
+Kiribati
+Kolombiya
+Komorlar
+Kongo
+Kongo Demokratik Cumhuriyeti
+Kosova
+Kosta Rika
+Kuveyt
+Kuzey Irlanda
+Kuzey Kore
+Kuzey Maryana Adalari
+Küba
+K.K.T.C.
+Laos
+Lesotho
+Letonya
+Liberya
+Libya
+Liechtenstein
+Litvanya
+Lübnan
+Lüksemburg
+Macaristan
+Madagaskar
+Makau (Makao)
+Makedonya
+Malavi
+Maldiv Adalari
+Malezya
+Mali
+Malta
+Marsal Adalari
+Martinik, Fransa
+Mauritius
+Mayotte, Fransa
+Meksika
+Misir
+Midway Adalari, Amerika
+Mikronezya
+Mogolistan
+Moldavya
+Monako
+Montserrat
+Moritanya
+Mozambik
+Namibia
+Nauru
+Nepal
+Nijer
+Nijerya
+Nikaragua
+Niue, Yeni Zelanda
+Norvec
+Orta Afrika Cumhuriyeti
+Ozbekistan
+Pakistan
+Palau Adalari
+Palmyra Atoll, Amerika
+Panama
+Papua Yeni Gine
+Paraguay
+Peru
+Polonya
+Portekiz
+Porto Riko, Amerika
+Reunion, Fransa
+Romanya
+Ruanda
+Rusya Federasyonu
+Saint Helena, Ingiltere
+Saint Martin, Fransa
+Saint Pierre ve Miquelon, Fransa
+Samoa
+San Marino
+Santa Kitts ve Nevis
+Santa Lucia
+Santa Vincent ve Grenadinler
+Sao Tome ve Principe
+Senegal
+Seyseller
+Sirbistan
+Sierra Leone
+Singapur
+Slovakya
+Slovenya
+Solomon Adalari
+Somali
+Sri Lanka
+Sudan
+Surinam
+Suriye
+Suudi Arabistan
+Svalbard, Norvec
+Svaziland
+Şili
+Tacikistan
+Tanzanya
+Tayland
+Tayvan
+Togo
+Tonga
+Trinidad ve Tobago
+Tunus
+Turks ve Caicos Adalari, Ingiltere
+Tuvalu
+Türkiye
+Türkmenistan
+Uganda
+Ukrayna
+Umman
+Uruguay
+Urdün
+Vallis ve Futuna, Fransa
+Vanuatu
+Venezuela
+Vietnam
+Virgin Adalari, Amerika
+Virgin Adalari, Ingiltere
+Wake Adalari, Amerika
+Yemen
+Yeni Kaledonya, Fransa
+Yeni Zelanda
+Yunanistan
+Zambiya
+Zimbabve</value>
+  </data>
+  <data name="_06Basak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Burclar\06Basak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_04Yengec" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Burclar\04Yengec.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Customize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Customize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_05Aslan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Burclar\05Aslan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\folder_open.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\sol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PieDiagram" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Pie Diagram.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_02Boga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Burclar\02Boga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\copy.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diller" xml:space="preserve">
+    <value>Abanyom dili (Bantu dil ailesi)
+Abazaca
+Abhazca
+Adamorobe isaret dili (Isaret dili)
+Acarca
+Adigece
+Afrikaans
+Ahtnaca
+Almanca
+Altayca
+Amharca
+Aragonca
+Arberesce
+Aramice
+Aranese
+Arapca
+Arnavutca
+Asturyasca
+Asagi Tananaca
+Auvergnat dili
+Avarca
+Aymara dili
+Ayni dili
+Aynu dili
+Azerbaycanca
+Baskca
+Bantu
+Bati Apacicesi
+Bengalce
+Bretonca
+Beyaz Rusca
+Bosnakca
+Bulgarca
+Burgonyaca
+Buryatca
+Champenois
+Çecence
+Çekce
+Çilkotince
+Çince
+Çingene Dili
+Çukcice
+Çupikce
+Çuvasca
+Dakelce
+Danca
+Danezaca
+Dargince
+Dauphinois
+Deginakca
+Denaginaca
+Denesulinece
+Denetaca
+Dzongka
+Endonezyaca
+Ermenice
+Eski Ingilizce
+Eski Nors dili
+Estonca
+Eyakca
+Farsca
+Faroe dili
+Filipince
+Flamanca
+Frizce
+Fince
+Felemenkce
+Fransizca
+Gagavuzca
+Galce
+Galicyaca
+Gaskonca
+Gilanice
+Goranice
+Goktürkce
+Guarani
+Gucince
+Güney Pikence
+Hakasca
+Hakka
+Hanca (Atabask)
+Hausa
+Hirvatca
+Hikarilaca
+Hintce
+Holikacukca
+Hollandaca
+Hunca
+Hupaca
+Ibranice
+Ingilizce
+Iran dilleri
+Irlandaca
+Ingusca
+Inyupikce
+Iskoc dili
+Ispanyolca
+Isvecce
+Italyanca
+Izlandaca
+Japonca
+Kabardeyce
+Kalabriyaca
+Kalmikca
+Kannada dili
+Kurmanci
+Kantonca
+Kaskaca
+Karakalpakca
+Kartca
+Kasgayca
+Kanuri dili
+Katalanca
+Kazakca
+Kazan Tatarcasi
+Kernevekce
+Khmer
+Kirgizca
+Kirim Tatarcasi
+Korsikaca
+Koryakca
+Koyukonca
+Kuskokvimce
+Kuzey Tuconcasi
+Kürtce
+Kapa
+Ladino
+Lakca
+Latince
+Laponca
+Lehce
+Letonyaca
+Leonca
+Lezgice
+Limousin dili
+Lipanca
+Litvanyaca
+Lombardca
+Lorrain dili
+Lorraine Frankcasi
+Lüksemburgca
+Macarca
+Malay dili
+Maltaca
+Makedonca
+Mari dili
+Manca
+Mancuca
+Mandarin
+Maori
+Mapudungun
+Maya dili
+Megrelce
+Meskalero-Çirikavaca
+Miranda dili
+Mogolca
+Moldovca
+Nadoten-Vetsuvetence
+Napolice
+Naukan Yupikcesi
+Navahoca
+Nissart dili
+Normanca
+Norvecce
+Nunivak Çupikcesi
+Oksitanca
+Osetce
+Osmanli Türkcesi
+Ova Apacicesi
+Ozbekce
+Pali dili
+Papiamento
+Pecenekce
+Pestuca
+Picard dili
+Portekizce
+Polinezya
+Provensal
+Quechua
+Romans
+Rumca
+Rumence
+Rusca
+Saho
+Salarca
+Sanskritce
+Satuca
+Sekanice
+Sirpca
+Sibirya Yupikcesi
+Sicilyaca
+Sirenik Yupikcesi
+Slovakca
+Slovence
+Sorb dili
+Sorani
+Supikce
+Svanca
+Swahili
+Süryanice
+Sivandi
+Tacikce
+Tagisce
+Tahltanca
+Takalotca
+Tai
+Tamilce
+Tanakrosca
+Tatarca
+Tayvanca
+Telugu
+Tibetce
+Tlinconca
+Tlingitce
+Tsetsautca
+Tsutinaca
+Tswana
+Tupi
+Tuvaca
+Türkce
+Türkiye Türkcesi
+Türkmence
+Udmurtca
+Ukrayna dili
+Ulahca
+Urduca
+Uygurca
+Valensiyaca
+Venedikce
+Vietnamca
+Vikingce
+Yakutca
+Yidis
+Yukari Tananaca
+Yunanca
+Yupikce
+Zazaca
+Zentce
+Zhong Hua Yu Zi
+Zhuang
+Zhùyīn fúhào
+Zulu</value>
+  </data>
+  <data name="f_AnaPencereIkon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\f_AnaPencereIkon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sariyildiz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\001_15.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Movies" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Movies.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maviasagiacil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10Oglak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Burclar\10Oglak.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maviyildiz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\maviyildiz.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yenifilmsimgesi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\yeni film.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Floppy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Floppy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="varsayilanfilmafisi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Tasarımlar\varsayilanfilmafisi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kisi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Kisi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OynadigiFilmMetni" xml:space="preserve">
+    <value>&lt;div id="satirSol"&gt;{filmAdi}&lt;/div&gt;
+    &lt;div id="satirSag"&gt;{karakterAdi}&lt;/div&gt;</value>
+  </data>
+  <data name="_09Yay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Burclar\09Yay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\info.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="paste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\paste.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\cut.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12Balik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Burclar\12Balik.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KisiHtmlMetni" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;title&gt;{baslik}&lt;/title&gt;
+&lt;style type="text/css"&gt;
+.body {
+	background-color: #AAAAAA;	
+}
+.taban {
+	width: 610px;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+.kisiAfisi {
+	background-color: #CCCCCC;
+	float: left;
+	height: 300px;
+	width: 230px;
+	margin-left: 14px;
+}
+.kisiAdi {
+	float: right;
+	width: 340px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-right: 10px;
+	border: 1px solid;
+}
+.Baslik {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	float: left;
+	width: 575px;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-bottom: 7px;
+	margin-left: 6px;
+	color: #CC9900;
+	font-weight: bolder;
+	font-style: normal;
+}
+#satirSol {
+	margin-left: 4px;
+	margin-bottom: 5px;
+	float: left;
+	width: 250px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+#satirSag {
+	margin-left: 4px;
+	margin-bottom: 5px;
+	float: right;
+	width: 270px;
+	margin-right: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+}
+.icBaslik {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	color: #333333;
+	font-style: normal;
+}
+.icerik {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000000;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	margin-bottom: 3px;
+}
+.Detaylar {
+	float: left;
+	width: 587px;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	margin-left: 13px;
+	border: 1px solid;
+	padding-bottom: 2px;
+}
+.resmiSiteler {
+	margin-left: 7px;
+	margin-bottom: 7px;
+	float: left;
+	display: block;
+	width: 573px;
+}
+.olayOrgusu {
+	font-family: Arial, Helvetica, sans-serif;
+	float: left;
+	width: 587px;
+	margin-top: 5px;
+	margin-right: 4px;
+	margin-bottom: 5px;
+	margin-left: 13px;
+	border: 1px solid;
+	padding-bottom: 2px;
+}
+.yonetmenYazarVeStarlar {
+	float: left;
+	width: 340px;
+	margin-bottom: 5px;
+	border: 1px solid;
+	margin-left: 14px;
+}
+.anahtarKelimeler {
+	float: left;
+	width: 559px;
+	margin-top: 5px;
+	margin-right: 4px;
+	margin-bottom: 5px;
+	margin-left: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.imdbID{
+	width: 100px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	color: #333333;
+	margin-left: 13px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body class="body"&gt;
+&lt;div class="taban"&gt;
+  &lt;div class="kisiAfisi"&gt;&lt;img src="{kisiResmi}" width="240px" height="300px"&gt;&lt;/img&gt;&lt;/div&gt;
+  &lt;span class="imdbID"&gt;&lt;span style="font-style:normal; font-weight:bold"&gt; IMDB ID: &lt;/span&gt;{imdbID}&lt;/span&gt;
+  &lt;div class="kisiAdi"&gt;{kisiAdi}&lt;/div&gt;
+  &lt;div class="yonetmenYazarVeStarlar"&gt;
+
+      &lt;span class="icerik" style="width:200px;diplya:block;padding-left:3px;padding-top:5px;"&gt;&lt;span class="icBaslik"&gt; Doğum Tarihi: &lt;/span&gt;{dogumTarihi}&lt;/span&gt;
+	  &lt;span class="icerik" style="width:200px;display:block;padding-left:3px;padding-top:5px;"&gt;&lt;span class="icBaslik"&gt; Doğum Yeri: &lt;/span&gt;{dogumYeri}&lt;/span&gt;
+	  &lt;span class="icerik" style="width:200px;display:block;padding-left:3px;padding-top:5px;"&gt;&lt;span class="icBaslik"&gt; Boy Uzunluğu: &lt;/span&gt;{boyUzunlugu}&lt;/span&gt;
+
+  &lt;/div&gt;
+  &lt;div class="olayOrgusu"&gt;
+  &lt;div class="Baslik"&gt;Oynadığı Filmler &lt;span style="font-style:italic; font-size:13px; font-weight: bold;"&gt;(Kütüphanede Eklenen)&lt;/span&gt;&lt;/div&gt;
+    &lt;div id="satirSol"&gt;{filmAdi}&lt;/div&gt;
+    &lt;div id="satirSag"&gt;{karakterAdi}&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="olayOrgusu"&gt;
+    &lt;div class="Baslik"&gt;Detaylar&lt;/div&gt;
+	&lt;div class="resmiSiteler"&gt;
+    &lt;span class="icBaslik"&gt;Öz Geçmişi:&lt;/span&gt;&lt;/br&gt;
+    &lt;span class="icerik"&gt;{ozGecmisi}&lt;/span&gt;&lt;/div&gt;
+    &lt;div class="resmiSiteler"&gt;
+    &lt;span class="icBaslik"&gt;Resmi Web Sayfaları:&lt;/span&gt;
+    &lt;span class="icerik"&gt;{resmiWebSayfalari}&lt;/span&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="action_delete1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\action_delete.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Find" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Find.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="varsayilanfilmafisi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Tasarımlar\varsayilanfilmafisi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dizibolumu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Tasarımlar\dizibolumu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yesilarti" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\03.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kutuphanesimgesi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Library Folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_11Kova" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Burclar\11Kova.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_07Terazi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Burclar\07Terazi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FilmHtmlMetni" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;title&gt;{baslik}&lt;/title&gt;
+&lt;style type="text/css"&gt;
+.body {
+	background-color: #AAAAAA;	
+}
+.taban {
+	width: 610px;
+	margin-top: 0px;
+	margin-left: 10px;
+}
+.filmAfisi {
+	background-color: #CCCCCC;
+	float: left;
+	height: 300px;
+	width: 230px;
+	margin-left: 14px;
+}
+.filmAdi {
+	float: right;
+	width: 340px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-right: 10px;
+	border: 1px solid;
+}
+.oyuncuKadrosu {
+	width: 587px;
+	float: left;
+	margin-left: 13px;
+	margin-right: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px solid;
+}
+.Baslik {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	float: left;
+	width: 575px;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-bottom: 7px;
+	margin-left: 6px;
+	color: #CC9900;
+	font-weight: bolder;
+	font-style: normal;
+}
+#satirSol {
+	margin-left: 4px;
+	margin-bottom: 5px;
+	float: left;
+	width: 250px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+#satirSag {
+	margin-left: 4px;
+	margin-bottom: 5px;
+	float: right;
+	width: 270px;
+	margin-right: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+}
+.icBaslik {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	color: #333333;
+	font-style: normal;
+}
+.icerik {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000000;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	margin-bottom: 3px;
+}
+.Detaylar {
+	float: left;
+	width: 587px;
+	margin-top: 4px;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	margin-left: 13px;
+	border: 1px solid;
+	padding-bottom: 5px;
+}
+.resmiSiteler {
+	margin-left: 7px;
+	margin-bottom: 7px;
+	float: left;
+	display: block;
+	width: 573px;
+}
+#tablo {
+	float: left;
+	width: 555px;
+	margin: 5px;
+}
+.olayOrgusu {
+	font-family: Arial, Helvetica, sans-serif;
+	float: left;
+	width: 587px;
+	margin-top: 5px;
+	margin-right: 4px;
+	margin-bottom: 5px;
+	margin-left: 13px;
+	border: 1px solid;
+	padding-bottom: 5px;
+}
+.turler {
+	float: right;
+	margin-bottom: 5px;
+	width: 340px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: normal;
+	color: #666666;
+	font-size: 17px;
+	margin-right: 10px;
+	border: 1px solid;
+}
+.imdbPuani {
+	float: right;
+	width: 340px;
+	margin-bottom: 5px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #996600;
+	font-size: 16px;
+	font-weight: bolder;
+	margin-right: 10px;
+}
+.yonetmenYazarVeStarlar {
+	float: right;
+	width: 340px;
+	margin-bottom: 5px;
+	margin-right: 11px;
+	margin-left: 0px;
+}
+#yazarlar {
+	width: 340px;
+	border: 1px solid;
+}
+#yonetmenler{
+	width: 340px;
+	border: 1px solid;
+}
+#starlar {
+	width: 340px;
+	border: 1px solid;
+}
+.anahtarKelimeler {
+	float: left;
+	width: 559px;
+	margin-top: 5px;
+	margin-right: 4px;
+	margin-bottom: 5px;
+	margin-left: 13px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.cikisYili {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	margin-left: 15px;
+}
+.imdbID{
+	width: 100px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	color: #333333;
+	margin-left: 13px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body class="body"&gt;
+&lt;div class="taban"&gt;
+  &lt;div class="filmAfisi"&gt;&lt;img src="{filmAfisi}" width="230px" height="300px"&gt;&lt;/img&gt;&lt;/div&gt;
+  &lt;span class="imdbID"&gt;&lt;span style="font-style:normal; font-weight:bold"&gt; IMDB ID: &lt;/span&gt;{imdbID}&lt;/span&gt;
+  &lt;div class="filmAdi"&gt;{filmAdi}&lt;span class="cikisYili"&gt;{cikisYili}&lt;/span&gt;&lt;/div&gt;
+  &lt;div class="turler"&gt;{turler}&lt;/div&gt;
+  &lt;div class="imdbPuani"&gt;{imdbPuani}&lt;/div&gt;
+  &lt;div class="yonetmenYazarVeStarlar"&gt;
+  	&lt;div class="yonetmenYazarVeStarlar" id="yonetmenler"&gt;
+  	  &lt;span class="icBaslik"&gt;Yönetmenler:&lt;/span&gt;
+      &lt;span class="icerik"&gt;{yonetmenler}&lt;/span&gt;
+  	&lt;/div&gt;
+    &lt;div class="yonetmenYazarVeStarlar" id="yazarlar"&gt;
+      &lt;span class="icBaslik"&gt;Yazarlar:&lt;/span&gt;
+      &lt;span class="icerik"&gt;{yazarlar}&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="yonetmenYazarVeStarlar" id="starlar"&gt;
+      &lt;span class="icBaslik"&gt;Yıldızlar:&lt;/span&gt;
+      &lt;span class="icerik"&gt;{yildizlar}&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="oyuncuKadrosu"&gt;
+  &lt;div class="Baslik"&gt;Oyuncu Kadrosu&lt;/div&gt;
+    &lt;div id="satirSol"&gt;{oyuncuAdi}&lt;/div&gt;
+    &lt;div id="satirSag"&gt;{karakterAdi}&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="olayOrgusu"&gt;
+    &lt;div class="Baslik"&gt;Olay Örgüsü&lt;/div&gt;
+	&lt;div class="resmiSiteler"&gt;
+    &lt;span class="icBaslik"&gt;Olay Örgüsü:&lt;/span&gt;&lt;/br&gt;
+    &lt;span class="icerik"&gt;{olayOrgusu}&lt;/span&gt;&lt;/div&gt;
+    &lt;div class="resmiSiteler"&gt;
+    &lt;span class="icBaslik"&gt;Anahtar Kelimeler:&lt;/span&gt;
+    &lt;span class="icerik"&gt;{anahtarKelimeler}&lt;/span&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="Detaylar"&gt;
+  	&lt;div class="Baslik"&gt;Detaylar&lt;/div&gt;
+    &lt;div class="resmiSiteler"&gt;
+      &lt;span class="icBaslik"&gt;Resmi Siteler:&lt;/span&gt;
+      &lt;span class="icerik"&gt;{resmiSiteler}&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="resmiSiteler"&gt;
+      &lt;span class="icBaslik"&gt;Ülke:&lt;/span&gt;
+      &lt;span class="icerik"&gt;{ulke}&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="resmiSiteler"&gt;
+      &lt;span class="icBaslik"&gt;Dil:&lt;/span&gt;
+      &lt;span class="icerik"&gt;{dil}&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="resmiSiteler"&gt;
+      &lt;span class="icBaslik"&gt;Çıkış Tarihi:&lt;/span&gt;
+      &lt;span class="icerik"&gt;{cikisTarihi}&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="resmiSiteler"&gt;
+      &lt;span class="icBaslik"&gt;Başka İsim:&lt;/span&gt;
+      &lt;span class="icerik"&gt;{baskaIsim}&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="resmiSiteler"&gt;
+      &lt;span class="icBaslik"&gt;Film Çekim Yerleri:&lt;/span&gt;
+      &lt;span class="icerik"&gt;{filmCekimYerleri}&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="resmiSiteler"&gt;
+      &lt;span class="icBaslik"&gt;Toplam Kazanç:&lt;/span&gt;
+      &lt;span class="icerik"&gt;{butce}&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="_01Koc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Burclar\01Koc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FilmTurleri" xml:space="preserve">
+    <value>Action,Adventure,Animation,Biography,Comedy,Crime,Documentary,Drama,Family,Fantasy,FilmNoir,GameShow,History,Horror,Music,Musical,Mystery,News,RealityTV,Romance,SciFi,Sport,TalkShow,Thriller,War,Western</value>
+  </data>
+  <data name="duzenle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\duzenle.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yenile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\yenile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_03Ikizler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Burclar\03Ikizler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sil1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\sil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OyuncuKadrosuMetni" xml:space="preserve">
+    <value>&lt;div id="satirSol"&gt;{oyuncuAdi}&lt;/div&gt;
+    &lt;div id="satirSag"&gt;{karakterAdi}&lt;/div&gt;</value>
+  </data>
+  <data name="sag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\sag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisiekle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\kisiekle.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hepsinisilsimgesi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Trash Metal Full.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kirmizicarpi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\223.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="filmlerklasoru" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\Movies Folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="balloon_bar_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Graphics\balloon_bar_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

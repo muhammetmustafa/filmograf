@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FBB85751-C036-471B-AC8E-F659D7CC3DC1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MMC_Filmograf</RootNamespace>
+    <AssemblyName>MMC Filmograf</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Programs\MyPrograms\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>http://www.mmcsoftware.com</SupportUrl>
+    <ErrorReportUrl>http://www.mmcsoftware.com/help</ErrorReportUrl>
+    <TargetCulture>tr-TR</TargetCulture>
+    <ProductName>MMC Filmograf</ProductName>
+    <PublisherName>MMC Software</PublisherName>
+    <SuiteName>MMC Filmograf</SuiteName>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>MMC_Filmograf.f_ProgramBaslangic</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Graphics\f_AnaPencereIkon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>E92ECA9FD86D862973F9129A99A222B151DDDAE0</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>MMC_Filmograf_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.WindowsAPICodePack">
+      <HintPath>.\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormlarDiger\f_Hakkinda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormlarDiger\f_Hakkinda.Designer.cs">
+      <DependentUpon>f_Hakkinda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormlarDiger\f_KisiArayici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormlarDiger\f_KisiArayici.Designer.cs">
+      <DependentUpon>f_KisiArayici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormlarFilm\f_FilmlerListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormlarFilm\f_FilmlerListesi.Designer.cs">
+      <DependentUpon>f_FilmlerListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_Istatistikler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_Istatistikler.Designer.cs">
+      <DependentUpon>f_Istatistikler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yapay Kontroller\mmcf_AnaMenu.xaml.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Yapay Kontroller\CiciGosterici.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Yapay Kontroller\CiciGosterici.Designer.cs">
+      <DependentUpon>CiciGosterici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormlarFilm\f_KategoriMetin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormlarFilm\f_KategoriMetin.Designer.cs">
+      <DependentUpon>f_KategoriMetin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormlarKisi\f_KisilerGoruntusu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormlarKisi\f_KisilerGoruntusu.Designer.cs">
+      <DependentUpon>f_KisilerGoruntusu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FomlarKutuphane\f_KutuphaneGoruntusu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FomlarKutuphane\f_KutuphaneGoruntusu.Designer.cs">
+      <DependentUpon>f_KutuphaneGoruntusu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormlarFilm\f_Referans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormlarFilm\f_Referans.Designer.cs">
+      <DependentUpon>f_Referans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormlarFilm\f_Replik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormlarFilm\f_Replik.Designer.cs">
+      <DependentUpon>f_Replik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormlarDiger\f_ResimGosterici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormlarDiger\f_ResimGosterici.Designer.cs">
+      <DependentUpon>f_ResimGosterici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormlarDiger\f_BaslikArayicisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormlarDiger\f_BaslikArayicisi.Designer.cs">
+      <DependentUpon>f_BaslikArayicisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormlarDiger\f_HataGosterici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormlarDiger\f_HataGosterici.Designer.cs">
+      <DependentUpon>f_HataGosterici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FomlarKutuphane\f_KutuphaneBilgisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FomlarKutuphane\f_KutuphaneBilgisi.Designer.cs">
+      <DependentUpon>f_KutuphaneBilgisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormlarDiger\f_MetinGirisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormlarDiger\f_MetinGirisi.Designer.cs">
+      <DependentUpon>f_MetinGirisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_AnaPencere.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="f_AnaPencere.Designer.cs">
+      <DependentUpon>f_AnaPencere.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormlarDiger\f_ArastirarakFilmEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormlarDiger\f_ArastirarakFilmEkle.Designer.cs">
+      <DependentUpon>f_ArastirarakFilmEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormlarKisi\f_KisiListesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormlarKisi\f_KisiListesi.Designer.cs">
+      <DependentUpon>f_KisiListesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormlarFilm\f_ManuelFilmEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormlarFilm\f_ManuelFilmEkle.Designer.cs">
+      <DependentUpon>f_ManuelFilmEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormlarKisi\f_ManuelKisiEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormlarKisi\f_ManuelKisiEkle.Designer.cs">
+      <DependentUpon>f_ManuelKisiEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="f_ProgramBaslangic.cs" />
+    <Compile Include="FormlarDiger\f_KelimeEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormlarDiger\f_KelimeEkle.Designer.cs">
+      <DependentUpon>f_KelimeEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Siniflar\Dizi.cs" />
+    <Compile Include="Siniflar\DiziBolumu.cs" />
+    <Compile Include="Siniflar\Film.cs" />
+    <Compile Include="Siniflar\IMDB.cs" />
+    <Compile Include="Siniflar\Kisi.cs" />
+    <Compile Include="Siniflar\Kutuphane.cs" />
+    <Compile Include="Siniflar\Odul.cs" />
+    <Compile Include="Siniflar\StaticFonksiyonlar.cs" />
+    <Compile Include="Siniflar\Tanimlamalar.cs" />
+    <Compile Include="Yapay Kontroller\listeLabelKontrolu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Yapay Kontroller\listeLabelKontrolu.Designer.cs">
+      <DependentUpon>listeLabelKontrolu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormlarDiger\f_Hakkinda.resx">
+      <DependentUpon>f_Hakkinda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormlarDiger\f_KisiArayici.resx">
+      <DependentUpon>f_KisiArayici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormlarFilm\f_KategoriMetin.resx">
+      <DependentUpon>f_KategoriMetin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormlarFilm\f_Referans.resx">
+      <DependentUpon>f_Referans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormlarFilm\f_Replik.resx">
+      <DependentUpon>f_Replik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormlarFilm\f_FilmlerListesi.resx">
+      <DependentUpon>f_FilmlerListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_Istatistikler.resx">
+      <DependentUpon>f_Istatistikler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yapay Kontroller\CiciGosterici.resx">
+      <DependentUpon>CiciGosterici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormlarKisi\f_KisilerGoruntusu.resx">
+      <DependentUpon>f_KisilerGoruntusu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FomlarKutuphane\f_KutuphaneGoruntusu.resx">
+      <DependentUpon>f_KutuphaneGoruntusu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormlarDiger\f_ResimGosterici.resx">
+      <DependentUpon>f_ResimGosterici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormlarDiger\f_BaslikArayicisi.resx">
+      <DependentUpon>f_BaslikArayicisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormlarDiger\f_HataGosterici.resx">
+      <DependentUpon>f_HataGosterici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FomlarKutuphane\f_KutuphaneBilgisi.resx">
+      <DependentUpon>f_KutuphaneBilgisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormlarDiger\f_MetinGirisi.resx">
+      <DependentUpon>f_MetinGirisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="f_AnaPencere.resx">
+      <DependentUpon>f_AnaPencere.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormlarDiger\f_ArastirarakFilmEkle.resx">
+      <DependentUpon>f_ArastirarakFilmEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormlarKisi\f_KisiListesi.resx">
+      <DependentUpon>f_KisiListesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormlarFilm\f_ManuelFilmEkle.resx">
+      <DependentUpon>f_ManuelFilmEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormlarDiger\f_KelimeEkle.resx">
+      <DependentUpon>f_KelimeEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormlarKisi\f_ManuelKisiEkle.resx">
+      <DependentUpon>f_ManuelKisiEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yapay Kontroller\listeLabelKontrolu.resx">
+      <DependentUpon>listeLabelKontrolu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="MMC_Filmograf_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\Kisi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\223.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\79.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\f_AnaPencereIkon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\yenile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\Photofiltre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\Movies.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\Find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\Customize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\Movies Folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\Library Folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\yeni film.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\Trash Metal Full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\Floppy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Graphics\balloon_bar_green.png" />
+    <Content Include="Graphics\f_AnaPencereIkon.ico" />
+    <None Include="Graphics\info.png" />
+    <None Include="Graphics\info.bmp" />
+    <None Include="Graphics\duzenle.bmp" />
+    <None Include="Graphics\Burclar\12Balik.png" />
+    <None Include="Graphics\Burclar\11Kova.png" />
+    <None Include="Graphics\Burclar\10Oglak.png" />
+    <None Include="Graphics\Burclar\09Yay.png" />
+    <None Include="Graphics\Burclar\08Akrep.png" />
+    <None Include="Graphics\Burclar\07Terazi.png" />
+    <None Include="Graphics\Burclar\06Basak.png" />
+    <None Include="Graphics\Burclar\05Aslan.png" />
+    <None Include="Graphics\Burclar\04Yengec.png" />
+    <None Include="Graphics\Burclar\03Ikizler.png" />
+    <None Include="Graphics\Burclar\02Boga.png" />
+    <None Include="Graphics\Burclar\01Koc.png" />
+    <None Include="Graphics\sol.png" />
+    <None Include="Graphics\sag.png" />
+    <None Include="Graphics\arrow_next.png" />
+    <None Include="Graphics\Tasarımlar\gezginSol.png" />
+    <None Include="Graphics\Tasarımlar\gezginSag.png" />
+    <None Include="Graphics\Tasarımlar\varsayilanfilmafisi.png" />
+    <None Include="Graphics\Tasarımlar\dizibolumu.png" />
+    <None Include="Graphics\object_06.bmp" />
+    <None Include="Graphics\object_07.bmp" />
+    <None Include="Graphics\31.bmp" />
+    <None Include="Graphics\maviyildiz.bmp" />
+    <None Include="Graphics\sil.png" />
+    <None Include="Graphics\action_delete.bmp" />
+    <None Include="Graphics\336.png" />
+    <None Include="Graphics\cizgi.bmp" />
+    <None Include="Graphics\paste.bmp" />
+    <None Include="Graphics\copy.bmp" />
+    <None Include="Graphics\cut.bmp" />
+    <None Include="Graphics\Pie Diagram.bmp" />
+    <None Include="Graphics\kisiekle.bmp" />
+    <None Include="Graphics\Network.bmp" />
+    <None Include="Graphics\folder_open.bmp" />
+    <None Include="Graphics\001_15.bmp" />
+    <None Include="Graphics\33.png" />
+    <None Include="Graphics\03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <FileAssociation Include=".fckd">
+      <Visible>False</Visible>
+      <Description>Filmograf Çoklu Kişi Dosyası</Description>
+      <Progid>1</Progid>
+      <DefaultIcon>Graphics\f_AnaPencereIkon.ico</DefaultIcon>
+    </FileAssociation>
+    <FileAssociation Include=".ffd">
+      <Visible>False</Visible>
+      <Description>Filmograf Film Dosyası</Description>
+      <Progid>1</Progid>
+      <DefaultIcon>Graphics\f_AnaPencereIkon.ico</DefaultIcon>
+    </FileAssociation>
+    <FileAssociation Include=".fkd">
+      <Visible>False</Visible>
+      <Description>Filmograf Kişi Dosyası</Description>
+      <Progid>1</Progid>
+      <DefaultIcon>Graphics\f_AnaPencereIkon.ico</DefaultIcon>
+    </FileAssociation>
+    <FileAssociation Include=".fkh">
+      <Visible>False</Visible>
+      <Description>Filmograf Kütüphane Dosyası</Description>
+      <Progid>1</Progid>
+      <DefaultIcon>Graphics\f_AnaPencereIkon.ico</DefaultIcon>
+    </FileAssociation>
+    <FileAssociation Include=".fkv">
+      <Visible>False</Visible>
+      <Description>Filmograf Veritabanı Dosyası</Description>
+      <Progid>1</Progid>
+      <DefaultIcon>Graphics\f_AnaPencereIkon.ico</DefaultIcon>
+    </FileAssociation>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Yapay Kontroller\mmcf_AnaMenu.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
